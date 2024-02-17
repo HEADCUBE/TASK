@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 body{
-    background-color: #f6f7fb;
+    background-color: #58636c;
+    background-image: url('/wall.jpg');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 button[type="submit"],
