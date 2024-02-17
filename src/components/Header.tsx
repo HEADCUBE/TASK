@@ -1,7 +1,7 @@
 import LoginButton from "@/components/LoginButton";
 import LogoutButton from "@/components/LogoutButton";
-import {authOptions} from "@/lib/authOptions";
-import {getServerSession} from "next-auth";
+import { authOptions } from "@/lib/authOptions";
+import { getServerSession } from "next-auth";
 import Link from "next/link";
 
 export default async function Header() {
@@ -9,7 +9,7 @@ export default async function Header() {
   return (
     <header className="bg-gray-200 p-4 px-8">
       <div className="flex justify-between items-center">
-        <Link href="/" className="logo">Trello</Link>
+        <Link href="/" className="logo">Task-UIC</Link>
         <div>
           {session && (
             <>
